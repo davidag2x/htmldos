@@ -16,11 +16,6 @@
             background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='100'><text x='10' y='50' font-size='25' fill='rgba(0,0,0,0.05)' font-family='Arial'>Desk Metrics</text></svg>");
             background-repeat: repeat;
         }
-
-		/* Highlight Input Boxes */
-		input: not( :placeholder-shown){
-        border: 2px solid #eaeaec; background-color: #444;
-        }
 		
 	body {
             display: flex;
@@ -54,6 +49,9 @@
             padding: 8px;
             border: 1px solid #ccc;
             border-radius: 4px;
+			input: not( :placeholder-shown)
+        	border: 2px solid #eaeaec; background-color: #444;
+			
         }
 
         .radio-group {
